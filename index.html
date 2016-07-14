@@ -1,375 +1,146 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">.gm-style .gm-style-mtc label,.gm-style .gm-style-mtc div{font-weight:400}</style><style type="text/css">.gm-style-pbc{transition:opacity ease-in-out;background-color:black;text-align:center}.gm-style-pbt{font-size:22px;color:white;font-family:Roboto,Arial,sans-serif;position:relative;margin:0;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}</style><link type="text/css" rel="stylesheet" href="./files/css"><style type="text/css">.gm-style .gm-style-cc span,.gm-style .gm-style-cc a,.gm-style .gm-style-mtc div{font-size:10px}</style><style type="text/css">@media print {  .gm-style .gmnoprint, .gmnoprint {    display:none  }}@media screen {  .gm-style .gmnoscreen, .gmnoscreen {    display:none  }}</style><style type="text/css">.gm-style{font-family:Roboto,Arial,sans-serif;font-size:11px;font-weight:400;text-decoration:none}.gm-style img{max-width:none}</style>
+    <!-- ====== META TAGS =====-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Mikaele">
+    <!-- ==== SEO META TAGS ===-->
+    <meta name="description" content="Mikaele Pereira Caetano">
+    <meta name="keywords" content="profile">
+    <title>Mikaele Caetano</title>
+    <!-- ==== STYLE LINKS =====-->
+    <!-- Google font-->
+    <link href="./Page Name — mikaele_f/css(1)" rel="stylesheet" type="text/css">
+    <!-- Main Styles-->
+    <link rel="stylesheet" href="./css/mikaele.css" type="text/css">
+    <link rel="stylesheet" href="./css/scrollyeah.min.css" type="text/css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries--><!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+  <style type="text/css"></style><script type="text/javascript" charset="UTF-8" src="./files/common.js"></script><script type="text/javascript" charset="UTF-8" src="./files/map.js"></script><script type="text/javascript" charset="UTF-8" src="./files/util.js"></script><script type="text/javascript" charset="UTF-8" src="./files/marker.js"></script><style id="fit-vids-style">.fluid-width-video-wrapper{width:100%;position:relative;padding:0;}.fluid-width-video-wrapper iframe,.fluid-width-video-wrapper object,.fluid-width-video-wrapper embed {position:absolute;top:0;left:0;width:100%;height:100%;}</style><script type="text/javascript" charset="UTF-8" src="./files/onion.js"></script><script type="text/javascript" charset="UTF-8" src="./files/infowindow.js"></script><script type="text/javascript" charset="UTF-8" src="./files/stats.js"></script><script type="text/javascript" charset="UTF-8" src="./files/controls.js"></script></head>
+  <body data-spy="scroll" data-target=".navbar-collapse" data-offset="76" style="margin-top: 76px;">
+    <section id="header">
+      <!-- Main menu-->
+      <nav class="navbar navbar-mikaele navbar-fixed-top">
+        <!-- Container-->
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" data-toggle="collapse" data-target="#brn-navbar-collapse-1" class="navbar-toggle">
+              <span class="batch icon32"></span>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-  <!--
-    Modified from the Debian original for Ubuntu
-    Last updated: 2014-03-19
-    See: https://launchpad.net/bugs/1288690
-  -->
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Apache2 Ubuntu Default Page: It works</title>
-    <style type="text/css" media="screen">
-  * {
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
-  }
+          </div>
+          <div id="brn-navbar-collapse-1" class="collapse navbar-collapse">
+            <!--
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+            </ul>
 
-  body, html {
-    padding: 3px 3px 3px 3px;
+            -->
+            <ul class="nav navbar-nav navbar-right">
+              <!-- dropdown ->
+              <!--
+              <li><a href="#" class="btn btn-primary">Button</a></li>
 
-    background-color: #D8DBE2;
-
-    font-family: Verdana, sans-serif;
-    font-size: 11pt;
-    text-align: center;
-  }
-
-  div.main_page {
-    position: relative;
-    display: table;
-
-    width: 800px;
-
-    margin-bottom: 3px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0px 0px 0px 0px;
-
-    border-width: 2px;
-    border-color: #212738;
-    border-style: solid;
-
-    background-color: #FFFFFF;
-
-    text-align: center;
-  }
-
-  div.page_header {
-    height: 99px;
-    width: 100%;
-
-    background-color: #F5F6F7;
-  }
-
-  div.page_header span {
-    margin: 15px 0px 0px 50px;
-
-    font-size: 180%;
-    font-weight: bold;
-  }
-
-  div.page_header img {
-    margin: 3px 0px 0px 40px;
-
-    border: 0px 0px 0px;
-  }
-
-  div.table_of_contents {
-    clear: left;
-
-    min-width: 200px;
-
-    margin: 3px 3px 3px 3px;
-
-    background-color: #FFFFFF;
-
-    text-align: left;
-  }
-
-  div.table_of_contents_item {
-    clear: left;
-
-    width: 100%;
-
-    margin: 4px 0px 0px 0px;
-
-    background-color: #FFFFFF;
-
-    color: #000000;
-    text-align: left;
-  }
-
-  div.table_of_contents_item a {
-    margin: 6px 0px 0px 6px;
-  }
-
-  div.content_section {
-    margin: 3px 3px 3px 3px;
-
-    background-color: #FFFFFF;
-
-    text-align: left;
-  }
-
-  div.content_section_text {
-    padding: 4px 8px 4px 8px;
-
-    color: #000000;
-    font-size: 100%;
-  }
-
-  div.content_section_text pre {
-    margin: 8px 0px 8px 0px;
-    padding: 8px 8px 8px 8px;
-
-    border-width: 1px;
-    border-style: dotted;
-    border-color: #000000;
-
-    background-color: #F5F6F7;
-
-    font-style: italic;
-  }
-
-  div.content_section_text p {
-    margin-bottom: 6px;
-  }
-
-  div.content_section_text ul, div.content_section_text li {
-    padding: 4px 8px 4px 16px;
-  }
-
-  div.section_header {
-    padding: 3px 6px 3px 6px;
-
-    background-color: #8E9CB2;
-
-    color: #FFFFFF;
-    font-weight: bold;
-    font-size: 112%;
-    text-align: center;
-  }
-
-  div.section_header_red {
-    background-color: #CD214F;
-  }
-
-  div.section_header_grey {
-    background-color: #9F9386;
-  }
-
-  .floating_element {
-    position: relative;
-    float: left;
-  }
-
-  div.table_of_contents_item a,
-  div.content_section_text a {
-    text-decoration: none;
-    font-weight: bold;
-  }
-
-  div.table_of_contents_item a:link,
-  div.table_of_contents_item a:visited,
-  div.table_of_contents_item a:active {
-    color: #000000;
-  }
-
-  div.table_of_contents_item a:hover {
-    background-color: #000000;
-
-    color: #FFFFFF;
-  }
-
-  div.content_section_text a:link,
-  div.content_section_text a:visited,
-   div.content_section_text a:active {
-    background-color: #DCDFE6;
-
-    color: #000000;
-  }
-
-  div.content_section_text a:hover {
-    background-color: #000000;
-
-    color: #DCDFE6;
-  }
-
-  div.validator {
-  }
-    </style>
-  </head>
-  <body>
-    <div class="main_page">
-      <div class="page_header floating_element">
-        <img src="/icons/ubuntu-logo.png" alt="Ubuntu Logo" class="floating_element"/>
-        <span class="floating_element">
-          Apache2 Ubuntu Default Page
-        </span>
+              -->
+              <!-- Dropdown
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </li>
+              -->
+            </ul>
+            <!-- Right navbar part end-->
+          </div>
+          <!-- Collapsing navbar end-->
+        </div>
+        <!-- Container end-->
+      </nav>
+      <!-- Main menu end-->
+    </section>
+    <section data-stellar-background-ratio="0.5" data-stellar-vertical-offset="-76" id="brn-promo" class="iphone-cover" style="background-position: 50% -76px;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h1>Tempo de vivência</h1>
+            <p class="lead">Tempo geral de experiência na arte da programação</p>
+            <ul class="lead countdown hasCountdown"><li>5<span>Anos</span><li>170<span>Dias</span></li><li>6<span>Horas</span></li><li>26<span>Minutos</span></li><li>2<span>Seconds</span></li></ul>
+          </div>
+          <!-- /col-md-12-->
+        </div>
+        <!-- /row-->
       </div>
-<!--      <div class="table_of_contents floating_element">
-        <div class="section_header section_header_grey">
-          TABLE OF CONTENTS
+      <!-- /container-->
+    </section>
+    <section id="brn-whowe">
+      <div class="container">
+        <!-- Section header-->
+        <header>
+          <div class="row">
+            <div class="col-xs-12">
+              <h2 class="stripe"><span>Quem sou eu</span></h2>
+            </div>
+            <!-- /col-xs-12-->
+          </div>
+          <!-- /row-->
+        </header>
+        <!-- Section header end-->
+        <div class="row">
+          <div class="col-sm-4 col-sm-offset-1">
+            <!-- Left Side Image--><img src="./bolt.JPG" alt="iMac" class="img-responsive">
+          </div>
+          <!-- /col-sm-4.col-sm-offset-1-->
+          <div class="col-sm-6 col-sm-offset-1">
+            <!-- Right Side Info-->
+            <h3 class="color-primary">Web developer</h3>
+            <p class="lead">Amiga de muitos, irmã de alguns, professora e aluna de outros!</p>
+            <p>Bacharel em Sistems de Informação pela Universidade Federal de Itajubá (UNIFEI), Técnico em Marketing pelo SENAC e em Eletrônica pelo SENAI.</p>
+            <h4 class="color-secundary">Habilidades técnicas:</h4>
+              <p><span class="badge">Ruby</span><span class="badge">Java</span><span class="badge">PHP</span></p>
+              <p><span class="badge">HTML</span><span class="badge">CSS</span><span class="badge">JS</span></p>
+            <h4 class="color-secundary">Experiência nas ferramentas:</h4>
+            <p><span class="badge">Ruby On Rails</span><span class="badge">Wordpress</span><span class="badge">CodeIgniter</span></p>
+            <p><span class="badge">SVN</span><span class="badge">Github</span><span class="badge">BitBucket</span></p>
+            <p><span class="badge">RubyMine</span><span class="badge">Eclipse</span><span class="badge">Netbeans</span></p>
+            <p><span class="badge">Linux</span><span class="badge">OSx</span><span class="badge">Windows</span></p>
+            <p><span class="badge">API Facebbok</span><span class="badge">API Google</span></p>
+          </div>
+          <!-- /col-sm-6.col-sm-offset-1-->
         </div>
-        <div class="table_of_contents_item floating_element">
-          <a href="#about">About</a>
-        </div>
-        <div class="table_of_contents_item floating_element">
-          <a href="#changes">Changes</a>
-        </div>
-        <div class="table_of_contents_item floating_element">
-          <a href="#scope">Scope</a>
-        </div>
-        <div class="table_of_contents_item floating_element">
-          <a href="#files">Config files</a>
+        <!-- /row-->
+      </div>
+      <!-- /container-->
+    </section>
+
+    <script src="./files/jquery.min.js" type="text/javascript"></script>
+    <!-- Bootstrap scripts-->
+    <script src="./files/bootstrap.min.js"></script>
+    <!-- Fotorama Slider-->
+    <script src="./js/fotorama.js"></script>
+    <!-- Lightbox
+    <script src="./files/lightbox.min.js" type="text/javascript"></script><div id="lightboxOverlay" class="lightboxOverlay" style="display: none;"></div><div id="lightbox" class="lightbox" style="display: none;"><div class="lb-outerContainer"><div class="lb-container"><img class="lb-image" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="><div class="lb-nav"><a class="lb-prev" href=""></a><a class="lb-next" href=""></a></div><div class="lb-loader"><a class="lb-cancel"></a></div></div></div><div class="lb-dataContainer"><div class="lb-data"><div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div><div class="lb-closeContainer"><a class="lb-close"></a></div></div></div></div>
+    <!-- ScrollYeah (clients block)-->
+    <script src="./files/scrollyeah.min.js" type="text/javascript"></script>
+    <!-- Stellar Parallax-->
+    <script src="./js/jquery.stellar.min.js" type="text/javascript"></script>
+    <!-- CountDown-->
+    <script src="./js/jquery.countdown.min.js" type="text/javascript"></script>
+    <script src="./files/js.js" type="text/javascript"></script>
+    <!-- Theme Scripts-->
+    <script src="./filjses/scripts.js" type="text/javascript"></script>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <!-- Social Media icons-->
+          <div class="text-center"></div>
         </div>
       </div>
--->
-      <div class="content_section floating_element">
+    </footer>
 
-
-        <div class="section_header section_header_red">
-          <div id="about"></div>
-          It works!
-        </div>
-        <div class="content_section_text">
-          <p>
-                This is the default welcome page used to test the correct 
-                operation of the Apache2 server after installation on Ubuntu systems.
-                It is based on the equivalent page on Debian, from which the Ubuntu Apache
-                packaging is derived.
-                If you can read this page, it means that the Apache HTTP server installed at
-                this site is working properly. You should <b>replace this file</b> (located at
-                <tt>/var/www/html/index.html</tt>) before continuing to operate your HTTP server.
-          </p>
-
-
-          <p>
-                If you are a normal user of this web site and don't know what this page is
-                about, this probably means that the site is currently unavailable due to
-                maintenance.
-                If the problem persists, please contact the site's administrator.
-          </p>
-
-        </div>
-        <div class="section_header">
-          <div id="changes"></div>
-                Configuration Overview
-        </div>
-        <div class="content_section_text">
-          <p>
-                Ubuntu's Apache2 default configuration is different from the
-                upstream default configuration, and split into several files optimized for
-                interaction with Ubuntu tools. The configuration system is
-                <b>fully documented in
-                /usr/share/doc/apache2/README.Debian.gz</b>. Refer to this for the full
-                documentation. Documentation for the web server itself can be
-                found by accessing the <a href="/manual">manual</a> if the <tt>apache2-doc</tt>
-                package was installed on this server.
-
-          </p>
-          <p>
-                The configuration layout for an Apache2 web server installation on Ubuntu systems is as follows:
-          </p>
-          <pre>
-/etc/apache2/
-|-- apache2.conf
-|       `--  ports.conf
-|-- mods-enabled
-|       |-- *.load
-|       `-- *.conf
-|-- conf-enabled
-|       `-- *.conf
-|-- sites-enabled
-|       `-- *.conf
-          </pre>
-          <ul>
-                        <li>
-                           <tt>apache2.conf</tt> is the main configuration
-                           file. It puts the pieces together by including all remaining configuration
-                           files when starting up the web server.
-                        </li>
-
-                        <li>
-                           <tt>ports.conf</tt> is always included from the
-                           main configuration file. It is used to determine the listening ports for
-                           incoming connections, and this file can be customized anytime.
-                        </li>
-
-                        <li>
-                           Configuration files in the <tt>mods-enabled/</tt>,
-                           <tt>conf-enabled/</tt> and <tt>sites-enabled/</tt> directories contain
-                           particular configuration snippets which manage modules, global configuration
-                           fragments, or virtual host configurations, respectively.
-                        </li>
-
-                        <li>
-                           They are activated by symlinking available
-                           configuration files from their respective
-                           *-available/ counterparts. These should be managed
-                           by using our helpers
-                           <tt>
-                                <a href="http://manpages.debian.org/cgi-bin/man.cgi?query=a2enmod">a2enmod</a>,
-                                <a href="http://manpages.debian.org/cgi-bin/man.cgi?query=a2dismod">a2dismod</a>,
-                           </tt>
-                           <tt>
-                                <a href="http://manpages.debian.org/cgi-bin/man.cgi?query=a2ensite">a2ensite</a>,
-                                <a href="http://manpages.debian.org/cgi-bin/man.cgi?query=a2dissite">a2dissite</a>,
-                            </tt>
-                                and
-                           <tt>
-                                <a href="http://manpages.debian.org/cgi-bin/man.cgi?query=a2enconf">a2enconf</a>,
-                                <a href="http://manpages.debian.org/cgi-bin/man.cgi?query=a2disconf">a2disconf</a>
-                           </tt>. See their respective man pages for detailed information.
-                        </li>
-
-                        <li>
-                           The binary is called apache2. Due to the use of
-                           environment variables, in the default configuration, apache2 needs to be
-                           started/stopped with <tt>/etc/init.d/apache2</tt> or <tt>apache2ctl</tt>.
-                           <b>Calling <tt>/usr/bin/apache2</tt> directly will not work</b> with the
-                           default configuration.
-                        </li>
-          </ul>
-        </div>
-
-        <div class="section_header">
-            <div id="docroot"></div>
-                Document Roots
-        </div>
-
-        <div class="content_section_text">
-            <p>
-                By default, Ubuntu does not allow access through the web browser to
-                <em>any</em> file apart of those located in <tt>/var/www</tt>,
-                <a href="http://httpd.apache.org/docs/2.4/mod/mod_userdir.html">public_html</a>
-                directories (when enabled) and <tt>/usr/share</tt> (for web
-                applications). If your site is using a web document root
-                located elsewhere (such as in <tt>/srv</tt>) you may need to whitelist your
-                document root directory in <tt>/etc/apache2/apache2.conf</tt>.
-            </p>
-            <p>
-                The default Ubuntu document root is <tt>/var/www/html</tt>. You
-                can make your own virtual hosts under /var/www. This is different
-                to previous releases which provides better security out of the box.
-            </p>
-        </div>
-
-        <div class="section_header">
-          <div id="bugs"></div>
-                Reporting Problems
-        </div>
-        <div class="content_section_text">
-          <p>
-                Please use the <tt>ubuntu-bug</tt> tool to report bugs in the
-                Apache2 package with Ubuntu. However, check <a
-                href="https://bugs.launchpad.net/ubuntu/+source/apache2">existing
-                bug reports</a> before reporting a new bug.
-          </p>
-          <p>
-                Please report bugs specific to modules (such as PHP and others)
-                to respective packages, not to the web server itself.
-          </p>
-        </div>
-
-
-
-
-      </div>
-    </div>
-    <div class="validator">
-    </div>
-  </body>
-</html>
-
+</body></html>
