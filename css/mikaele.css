@@ -9670,3 +9670,10 @@ body:after {
 .green{
     background-color: #107F74;
 }
+.icone{
+  width: 50px;
+  height: 50px;
+}
+.icone:hover{
+  background-color: #9e0f27;
+}
