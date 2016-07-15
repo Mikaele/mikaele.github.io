@@ -9655,3 +9655,18 @@ body:after {
   transition: box-shadow 0.3s, transform 0.3s;
   text-decoration: none;
 }
+.red{
+  background-color: #9e0f27;
+}
+.pink{
+  background-color: #E91E63;
+}
+.orange{
+  background-color: #F44336;
+}
+.blue{
+    background-color: #374AB5;
+}
+.green{
+    background-color: #107F74;
+}
