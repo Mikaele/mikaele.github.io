@@ -9091,23 +9091,23 @@ section#header {
   margin-bottom: 0;
 }
 /* ========== PROMO ========== */
-#brn-promo {
+#mikpromo {
   margin-top: 0;
   margin-bottom: 96px;
   background: url("../img/bg-red.jpg") 50% 0 no-repeat #cc1433;
 }
-#brn-promo h1 {
+#mikpromo h1 {
   margin-top: 96px;
 }
-#brn-promo h1,
-#brn-promo p.lead {
+#mikpromo h1,
+#mikpromo p.lead {
   color: #fff;
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.75);
 }
-#brn-promo p.lead {
+#mikpromo p.lead {
   margin-top: 24px;
 }
-#brn-promo .fluid-width-video-wrapper {
+#mikpromo .fluid-width-video-wrapper {
   margin-top: 96px;
   margin-bottom: 72px;
 }
@@ -9155,7 +9155,7 @@ section#header {
   padding-top: 96px;
 }
 /* ========== GMAP ========== */
-#brn-gmap {
+#mikgmap {
   position: relative;
   background-color: #f0f0f0;
 }
@@ -9214,7 +9214,7 @@ section#header {
 }
 /* SM media */
 @media (max-width: 991px) {
-  #brn-promo.iphone-cover {
+  #mikpromo.iphone-cover {
     margin-bottom: 480px;
   }
   .iphone {
@@ -9228,10 +9228,10 @@ section#header {
 }
 /* XS media */
 @media (max-width: 767px) {
-  #brn-promo.iphone-cover {
+  #mikpromo.iphone-cover {
     margin-bottom: 120%;
   }
-  #brn-promo.iphone-cover .col-xs-12 {
+  #mikpromo.iphone-cover .col-xs-12 {
     padding: 0;
   }
   .iphone {
@@ -9257,7 +9257,7 @@ section#header {
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
 }
-#brn-features-app {
+#mikfeatures-app {
   margin-top: 100px;
 }
 .iphone-new {
@@ -9289,7 +9289,7 @@ section#header {
     width: 332px;
     top: 138px;
   }
-  #brn-features-app {
+  #mikfeatures-app {
     margin-top: 500px;
   }
 }
@@ -9304,7 +9304,7 @@ section#header {
     top: 90px;
     left: 50%;
   }
-  #brn-features-app {
+  #mikfeatures-app {
     margin-top: 360px;
   }
 }
@@ -9315,7 +9315,7 @@ section#header {
     top: 90px;
     left: 51.3%;
   }
-  #brn-features-app {
+  #mikfeatures-app {
     margin-top: 460px;
   }
 }
@@ -9447,7 +9447,7 @@ section#header {
 }
 /* ========== REVIEWS ========== */
 /* Reviews section background */
-#brn-reviews {
+#mikreviews {
   background: url("../img/bg-light-gray.jpg") 50% -100px #f0f0f0;
   padding-top: 24px;
 }
@@ -9475,16 +9475,16 @@ section#header {
 }
 /* ========== NEWSLETTER ========== */
 /* Newsletter section background */
-#brn-newsletter {
+#miknewsletter {
   background: url("../img/bg-red.jpg") 50% 0 #cc1433;
   padding-top: 24px;
   padding-bottom: 24px;
   color: #fff;
 }
-#brn-newsletter h2 {
+#miknewsletter h2 {
   line-height: 42px;
 }
-#brn-newsletter .form-inline .btn {
+#miknewsletter .form-inline .btn {
   margin-left: 15px;
 }
 form.newsletter input {
@@ -9521,10 +9521,10 @@ footer p {
     margin-top: 24px;
   }
   /* Promo header text fix */
-  #brn-promo {
+  #mikpromo {
     text-align: center;
   }
-  #brn-promo h1 {
+  #mikpromo h1 {
     margin-top: 48px;
   }
 }
