@@ -119,21 +119,23 @@
         <script src="./js/jquery.map.js" type="text/javascript"></script>
     <script src="./js/bootstrap.min.js"></script>
 <script src="./js/jquery.countup.js"></script>
+<script src="./js/jquery.validate.min.js"></script>
 <script src="./js/script.js"></script>
     <footer>
       <div class="container">
         <div class="row">
           <h2 class="stripe"><span>Contato</span></h2>
-            <form action="https://formspree.io/mikaele164@gmail.com" method="POST">
+            <div id="feedback_messages"></div>
+            <form id="contato-form" action="https://formspree.io/mikaele164@gmail.com" method="POST">
               <div class="col-md-9">
         <div class="form-group">
-          <input type="email" class="form-control" name="_replyto" placeholder="Email">
+          <input type="email" class="form-control" id="email" name="_replyto" required placeholder="Email">
         </div>
         <div class="form-group">
-          <input type="text" class="form-control" name="name" placeholder="Nome">
+          <input type="text" class="form-control" id="name" name="name" placeholder="Nome">
         </div>
         <div class="form-group">
-          <textarea type="text" name="content"  class="col-md-12" placeholder="Mensagem"></textarea>
+          <textarea type="text" name="content" id="message" required  class="col-md-12" placeholder="Mensagem"></textarea>
         </div>
 
         <input type="submit" value="Enviar" class="btn btn-default">
